@@ -1,0 +1,80 @@
+@import '../../../base/assets/styles/colors';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  height: 120px;
+  width: 100%;
+  padding: 0 25px;
+  box-sizing: border-box;
+  border-bottom: 1px solid $header-border;
+  background: $header-primary;
+  color: $primary-light;
+
+  .back_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .button_image {
+      margin-right: 8px;
+    }
+  }
+
+  .empty_button {
+    width: 105px;
+  }
+
+  .main_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .info_block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 25px;
+
+    .name {
+      margin: 0;
+    }
+
+    .email {
+      margin-top: 15px;
+    }
+  }
+
+  .logout_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: $grey-text;
+
+    .email_block {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

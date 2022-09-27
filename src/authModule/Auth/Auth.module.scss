@@ -1,0 +1,26 @@
+@import '../../base/assets/styles/colors';
+
+.form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  .form_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 2px solid $border-color;
+    border-radius: 8px;
+    background-color: $primary;
+  }
+
+  .input,.button {
+        margin-bottom: 20px;
+      }
+
+  .link {
+    text-decoration: none;
+    color: $primary-blue;
+  }
+}

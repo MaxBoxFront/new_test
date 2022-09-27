@@ -1,0 +1,36 @@
+@import '../../assets/styles/colors';
+
+
+.error_page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: $primary;
+  color: $primary-light;
+
+  .header {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    background: $header-primary;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+  }
+
+  .link {
+    text-decoration: none;
+    color: $primary-blue;
+  }
+
+}

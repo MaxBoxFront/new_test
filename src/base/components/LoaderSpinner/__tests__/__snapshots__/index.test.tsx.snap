@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The LoaderSpinner component should renders correctly 1`] = `
+<div
+  className="loader_spinner"
+>
+  <svg
+    className="spinner"
+    viewBox="0 0 50 50"
+  >
+    <circle
+      className="spinner__path"
+      cx="25"
+      cy="25"
+      fill="none"
+      r="20"
+      strokeWidth="5"
+    />
+  </svg>
+</div>
+`;

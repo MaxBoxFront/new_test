@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Input component should renders correctly 1`] = `
+<div
+  className="input__wrapper"
+>
+  <input
+    className="input input--fluid"
+    id="email"
+    onChange={[Function]}
+    placeholder="Email"
+    type="text"
+    value=""
+  />
+</div>
+`;

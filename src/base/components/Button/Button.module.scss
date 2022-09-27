@@ -1,0 +1,97 @@
+@import '../../assets/styles/colors';
+
+.button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  height: 35px;
+  max-width: 450px;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 19px;
+  background: $primary-blue;
+  color: $primary-light;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+
+  &[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  &:hover {
+    background-color: $button-hover;
+  }
+
+  &:active {
+    background-color: $button-active;
+  }
+
+  &:focus {
+    border: 1px solid $button-hover;
+  }
+
+  &--fluid {
+    width: 450px;
+  }
+
+  &--theme--black {
+    background-color: $search-color;
+
+    &:hover {
+      background-color: $primary-grey;
+    }
+
+    &:focus {
+      border: 1px solid $button-hover;
+      background-color: $search-color;
+    }
+
+    &:disabled {
+      background-color: $header-primary;
+    }
+
+    &:active {
+      background-color: $hover-color;
+    }
+  }
+
+  &--theme--transparent {
+    border: none;
+    background: none;
+    color: $grey-dark;
+
+    &:hover, &:focus, &:active {
+      background: none;
+      color: $grey-dark;
+      border: none;
+    }
+  }
+
+  &--theme--onclick {
+    justify-content: start;
+    border: none;
+    background: none;
+    border-radius: 0;
+
+    &:hover, &:focus, &:active {
+      border: none;
+      background: none;
+    }
+  }
+
+  &--size--small-85 {
+    width: 85px;
+  }
+
+  &--size--middle-105 {
+    width: 105px;
+  }
+
+
+}
+

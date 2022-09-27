@@ -1,0 +1,17 @@
+@import '../../../base/assets/styles/colors';
+
+.main_layout {
+  display: flex;
+  flex-direction: column;
+  min-block-size: 100vh;
+  max-inline-size: 100vw;
+  color: $primary-light;
+  background-color: #0F0F0F;
+
+    .content {
+      position: relative;
+      width: 100%;
+      margin-top: 220px;
+    }
+}
+

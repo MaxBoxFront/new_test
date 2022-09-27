@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Registration component renders correctly 1`] = `
+<div
+  className="registration"
+>
+  <div
+    className="content"
+  >
+    <h2>
+      Create account
+    </h2>
+    <div
+      className="input__wrapper input"
+    >
+      <input
+        className="input input--fluid"
+        id="username"
+        onChange={[Function]}
+        placeholder="username"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="input__wrapper input"
+    >
+      <input
+        className="input input--fluid"
+        id="email"
+        onChange={[Function]}
+        placeholder="Email"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="input__wrapper input"
+    >
+      <input
+        className="input input--fluid"
+        id="password"
+        onChange={[Function]}
+        placeholder="Password"
+        type="text"
+        value=""
+      />
+    </div>
+    <button
+      className="button button--fluid button"
+      onClick={[Function]}
+      type="button"
+    >
+      Create account
+    </button>
+  </div>
+</div>
+`;

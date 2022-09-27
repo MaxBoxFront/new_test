@@ -1,0 +1,13 @@
+@import '../../../base/assets/styles/colors';
+
+.home {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 160px;
+ color: $primary-light;
+
+ .user {
+  margin-right: 10px;
+ }
+}

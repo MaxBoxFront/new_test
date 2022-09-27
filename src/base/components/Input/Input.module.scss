@@ -1,0 +1,63 @@
+@import '../../assets/styles/colors';
+
+.input {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 598px;
+  height: 40px;
+  outline: none;
+  padding: 11px 16px;
+  border: 1px solid $header-border;
+  border-radius: 8px;
+  color: $primary-light;
+  background-color: $menu-color;
+  font-size: 14px;
+  line-height: 17px;
+
+  &:active {
+    border: none;
+  }
+
+  &:focus {
+    border: 1px solid $header-border;
+  }
+
+  &[disabled] {
+    opacity: 0.5;
+  }
+
+  &--fluid {
+    width: 450px;
+  }
+
+  &::placeholder {
+    color: $grey-dark;
+  }
+
+  &__label {
+    font-size: 16px;
+    line-height: 19px;
+    color: $danger;
+    width: max-content;
+    margin-bottom: 10px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    box-sizing: border-box;
+    height: max-content;
+    align-items: flex-start;
+
+    .label_block {
+      display: flex;
+      margin-top: 10.5px;
+    }
+    .image {
+      width: 15px;
+      height: 13px;
+    }
+  }
+}
+
